@@ -14,7 +14,7 @@ docker run \
 ```
 # 2. Set Up SSH Tunnel:
 
-* My tunnel path: desktop -> sonic dev vm -> str-serv-acs-14 -> DUT.
+* My tunnel path: desktop -> sonic dev vm -> `str-serv-acs-14` -> DUT(`str4-sn5600-4`).
 ```
 ssh -L 8080:localhost:8080 -J daweihuang@10.52.0.72,daweihuang@10.64.247.30 admin@10.64.246.49
 ```
